@@ -1,3 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grilla-producto {
+    display: grid;
+    grid-template-areas: "cabeza"
+        "cuerpo"
+        "cuerpo"
+        "cuerpo"
+        "cuerpo"
+        "cuerpo"
+        "pie";
+}
+
+#grilla-areas {
+    display: grid;
+    grid-template-areas: "cabeza"
+        "cuerpo"
+        "cuerpo"
+        "cuerpo"
+        "pie";
+
+}
 header {
     grid-area: cabeza;
     background-color: rgb(228, 58, 157);
